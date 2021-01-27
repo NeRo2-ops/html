@@ -1,0 +1,43 @@
+body {
+    font: 13pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: darksalmon;
+    margin: 0; /* Убираем отступы */
+}
+#container {
+    width: 1325px;
+    margin: 0 auto; /* Выравниваем по центру */
+}
+#header {
+    background: gray;
+    font-size: 20pt; /* Размер текста */
+    color: #edeed5; /* Цвет текста */
+    padding: 15px; /* Отступы вокруг текста */
+}
+#content2 {
+    margin-right: 420px; /* Отступ справа */
+    background: #fff; /* Цвет фона левой колонки */
+}
+#content2 p {
+    margin-top: 0.3em /* Отступ сверху */
+}
+#content {
+    border: 4px ridge;
+    float: right; /* Обтекание по левому краю */
+    width: 400px; /* Ширина правой колонки */
+    padding: 10px; /* Отступы вокруг текста */
+    background: white; /* Цвет фона */
+}
+#content3 {
+     width: 500px; /* Ширина слоя */
+     margin: 0 auto 50px; /* Выравнивание по центру */
+ }
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+#footer div {
+    padding: 10px; /* Поля вокруг текста */
+    background: dimgray; /* Цвет фона */
+}

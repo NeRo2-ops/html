@@ -1,0 +1,33 @@
+body {
+    font: 0.8em Arial, Helvetica, sans-serif;
+    background: dimgray;
+    color: aliceblue;
+}
+a { color: #008BCE; }
+#container {
+    width: 1320px;
+    margin: 0 auto;
+}
+#header {
+    font-size: 2.2em;
+    text-align: center;
+    padding: 20px;
+    background: #cbc0b7;
+}
+#nav, #aside {
+    float: left; width: 1000px; padding: 5px;
+}
+#content {
+    background: goldenrod;
+    margin: 0 250px;
+    padding: 10px;
+}
+#aside {
+    float: right; color: #000;
+}
+h2 { margin: 0 0 1em; }
+#footer {
+    clear: both;
+    padding: 5px;
+    background: #D71920;
+}
